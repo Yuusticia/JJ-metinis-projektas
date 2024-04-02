@@ -33,10 +33,22 @@ main {
     margin: 1%;
 }
 
+.container {
+    width: 100%;
+}
+.inner-container {
+    display: inline-block;
+    padding: 20px;
+    margin: 5px;
+    width: 90%;
+    border-radius: 10px;
+}
+
 .rightbody-container, .leftbody-container {
     width: 100%;
     text-align: center;
 }
+
 .rightbody, .leftbody {
     display: inline-block;
     background-color: rgb(234, 229, 230);
@@ -45,8 +57,12 @@ main {
     width: 90%;
     border-radius: 10px;
 }
+
 .rightbody h2, .leftbody h2 {
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3, h5 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .rightbody p, .leftbody p {
@@ -72,6 +88,7 @@ main {
     border: 2px solid rgb(137, 36, 36);
     font-weight: bold;
     letter-spacing: 0.05em;
+    display: inline-block;
 }
 .btn1{
     color: #ffffff;

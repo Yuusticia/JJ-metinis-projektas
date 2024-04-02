@@ -11,9 +11,9 @@ body {
 .navbar {
     background-color: #812121;
 }
-.navbar-brand {
-    float: left;
-}
+
+/* fix calendar txt position, make it left
+.container-fluid {} */
 
 a{
     color: white;
@@ -26,31 +26,54 @@ a:hover{
     background-color: #741b1b;
 }
 
-main {
-    margin: 1%;
-}
-
 h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.form-container{
+/* edit vertical alignment */
+
+main {
+    margin: 1%;
+    position: relative;
+}
+
+.container{
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    /* below */
+    position: relative;
+    top: 50%;
+    margin-top: 100px;
 }
 .form {
     background-color: rgb(234, 229, 230);
     padding: 20px;
     margin: 5px;
-    width: 80%;
+    width: 90%;
     max-width: 580px;
     border-radius: 10px;
 }
-input{
+
+input[name="RegName"], input[name="psw"], input[name="psw-repeat"], input[name="email"] {
     float: right;
-    width: 60%;
+    width: 50%;
 }
+
+.registerbtn {
+    background-color: #812121;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .registerbtn:hover {
+    background-color: #5d1414;
+    color: #f4e9e9;
+  }
