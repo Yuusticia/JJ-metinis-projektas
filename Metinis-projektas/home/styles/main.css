@@ -1,4 +1,4 @@
-html{
+html {
     width: 100%;
     height: 100%;
 }
@@ -14,19 +14,26 @@ body {
 .navbar-toggler-icon {
     filter: invert(100%);
 }
-.navbar-brand{
+.navbar-brand {
     padding: 0px 15px 0px 15px;
 }
 
-a{
+a {
     color: white;
 }
-a:hover{
+a:hover {
     color: #d9cece;
 }
-.navbar-nav a:hover{
+.navbar-nav a:hover {
     color: #f4e9e9;
     background-color: #741b1b;
+}
+
+.red-link {
+    color: rgb(67, 0, 0);
+}
+.red-link:hover {
+    color: rgb(165, 0, 0);
 }
 
 main {
@@ -35,6 +42,7 @@ main {
 
 .container {
     width: 100%;
+    text-align: center;
 }
 .inner-container {
     display: inline-block;
@@ -42,6 +50,7 @@ main {
     margin: 5px;
     width: 90%;
     border-radius: 10px;
+    background-color: rgb(234, 229, 230);
 }
 
 .rightbody-container, .leftbody-container {
@@ -65,7 +74,7 @@ main {
 h3, h5 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.rightbody p, .leftbody p {
+.rightbody p, .leftbody p, .container p, .container h5 {
     text-align: left;
 }
 
@@ -90,7 +99,7 @@ h3, h5 {
     letter-spacing: 0.05em;
     display: inline-block;
 }
-.btn1{
+.btn1 {
     color: #ffffff;
     background-color: #812121;
 }
@@ -99,7 +108,7 @@ h3, h5 {
     background-color: #5d1414;
     text-decoration: none;
 }
-.btn2{
+.btn2 {
     color: #812121;
     background-color: #ffffff;
 }
@@ -124,8 +133,6 @@ footer {
     display: none;
     content: url(https://thumbs.dreamstime.com/b/middle-age-senior-woman-holding-menstruation-calendar-over-red-isolated-background-very-happy-excited-winner-expression-226710825.jpg);
 }
-/* https://img.freepik.com/premium-photo/photo-beautiful-smiling-happy-young-brunette-woman-holding-computer-laptop-with-empty-monitor_88135-30422.jpg */
-
 
 
 @media (max-width: 760px) {
